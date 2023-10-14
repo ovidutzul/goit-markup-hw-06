@@ -195,6 +195,7 @@ a {
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/business-solution-background.jpg");
+  background-size: cover;
 }
 
 .business-solution {
@@ -334,7 +335,7 @@ a {
   right: 0;
   margin: 0;
   background-color: rgba(47, 48, 58, 0.8);
-  }
+}
 
 .what-we-do-container .our-apps h3 {
   color: #fff;
@@ -597,8 +598,8 @@ a {
 }
 
 .box1 {
-   width: 470px;
-  height: 111px;
+  width: 370px;
+  height: 110px;
 }
 
 .our-work-section .work-cards li:hover,
@@ -716,6 +717,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .modal-overlay {
