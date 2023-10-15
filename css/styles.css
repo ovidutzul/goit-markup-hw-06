@@ -545,7 +545,7 @@ a {
   flex-wrap: wrap;
   flex: 1 0 auto;
   justify-content: space-between;
-  flex-basis: calc((100%-90px) / 3);
+  flex-basis: calc((100% - 30px)/3);
   max-width: 1200px;
 }
 
@@ -553,7 +553,7 @@ a {
   width: 75%;
   height: 1548px;
   border: 1px;
-  gap: 30px;
+gap: 30px;
 }
 
 .image {
@@ -617,6 +617,7 @@ a {
   background: #fff;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow var(--transition);
 }
 
 .work-cards li div {
@@ -732,7 +733,6 @@ a {
 
 .footer-email-input-box {
   display: flex;
-
   justify-content: space-between;
   padding: 15px 0 16px 15px;
   color: #fff;
@@ -770,7 +770,7 @@ a {
   -webkit-text-fill-color: #fff;
   -webkit-box-shadow: 0 0 0px 1000px #2f303a inset;
   transition: background-color 5000s ease-in-out 0s;
-  }
+}
 
 .subscribe-button {
   display: flex;
