@@ -361,12 +361,12 @@
                     </svg>
                 </button>
                 <h3>Leave your information and we'll call you back</h3>
-                <form action="" method="get" autocomplete="off" class="contact-form">
-                    <div class="form-section">
+                <form action="" method="get" autocomplete="off" class="contact-form" onsubmit="return checkForm(this)">
+                    <div class=" form-section">
                         <label class="label-text" for="name">Name</label>
                         <div class="input-container">
                             <input class="modal-input" type="text" name="name" id="name" required>
-                            <svg class="person">
+                            <svg class="icon-person">
                                 <use xlink:href="./images/icons.svg#icon-person"></use>
                             </svg>
                         </div>
@@ -394,8 +394,24 @@
                         <label class="label-text" for="textarea">Comments</label>
                         <textarea name="textarea" id="textarea" placeholder="Enter the text"></textarea>
                     </div>
-                    <input type="submit" value="Send">
 
+                    <div class="input-container terms-and-condition-container">
+                        <input type="checkbox" required-name="terms" class="terms-and-conditions-check"
+                            name="terms-and-conditions-check" id="terms-and-conditions-check" value="checked" required>
+                        <label class=" terms-and-conditions-label" for="terms-and-conditions-check">
+                            <svg class="icon-checkbox">
+                                <use xlink:href="./images/icons.svg#icon-checkbox"></use>
+                            </svg>
+
+                            <span>
+                                I agree with the letter and accept the
+                                <a href="#">Terms and Conditions</a>
+                            </span>
+                        </label>
+                    </div>
+
+
+                    <input class="modal-send-btn" type="submit" value="Send">
                 </form>
             </div>
         </div>
