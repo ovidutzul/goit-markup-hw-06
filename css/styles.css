@@ -14,7 +14,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
-  min-width: 1600px;
+  min-width: 100%;
 }
 
 ul {
@@ -1046,6 +1046,7 @@ textarea:focus + svg {
 .terms-and-conditions-check {
   width: 19px;
   margin-left: 12px;
+   accent-color: var(--background-hover-button-color)
 }
 
 .terms-and-conditions-check:not(:checked) {
